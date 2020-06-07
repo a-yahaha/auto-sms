@@ -9,6 +9,7 @@ import android.util.Log;
 
 /**
  *  短信验证码监听器
+ *  {@link <a href="https://juejin.im/post/5b207bc05188257d367e6c63">自动接收短信验证码</a>}
  */
 
 public class SmsCaptchaObserver extends ContentObserver {
