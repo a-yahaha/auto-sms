@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 new SmsCaptchaObserver(this, new Handler(), new SmsListener() {
                     @Override
                     public void onResult(String result) {
+                        // TODO 这里做短信的上报
                         Log.i("SmsListener onResult", result);
                     }
                 }));
